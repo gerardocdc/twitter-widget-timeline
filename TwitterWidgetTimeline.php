@@ -9,7 +9,7 @@
  * @link        https://github.com/gerardocdc/twitter-widget-timeline
  * @copyright	Copyright (c) 2012 Diaz-Caneja Consultores
  * @license		Creative Commons CC-BY-SA License (http://creativecommons.org/licenses/by-sa/3.0/)
- * @version     1.0
+ * @version     1.1
  * @filesource
  */
 
@@ -27,7 +27,7 @@
  * </code>
  *
  * @package		Twitter
- * @version     1.0
+ * @version     1.1
  * @since		Version 1.0
  */
 class TwitterWidgetTimeline
@@ -109,8 +109,8 @@ class TwitterWidgetTimeline
 		$code = "<a class=\"twitter-timeline\"";
 		$code .= "href=\"https://twitter.com/".$this->getUsername()."\"";
 		$code .= "data-widget-id=\"".$this->getWidgetId()."\">";
-		$code .= "Tweets por @".$this->getUsername()."</a>";
-		$code .= "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>";
+		$code .= "Tweets por @".$this->getUsername()."</a>\r\n";
+		$code .= "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\r\n";
 
 		echo $code;
 	}
