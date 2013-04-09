@@ -15,15 +15,17 @@ Usage
 -----
 	$twitterWidget = new TwitterWidgetTimeline();
 	$twitterWidget->setUsername("my.twitter.username");
-	$twitterWidget->setWidgetId("1234567890";
+	$twitterWidget->setWidgetId("1234567890");
 	$twitterWidget->render();
 
 Copyright
 ---------
 Creative Commons CC-BY-SA License (http://creativecommons.org/licenses/by-sa/3.0/)
-Copyright (c) 2012 Diaz-Caneja Consultores
+
+Copyright (c) 2012-3 Diaz-Caneja Consultores
 
 Contact
 --------
 Gerardo Colorado Diaz-Caneja   gcdiazcaneja@diaz-caneja-consultores.com
+
 Github: https://github.com/gerardocdc/twitter-widget-timeline (feel free to contribute)
